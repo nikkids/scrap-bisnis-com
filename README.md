@@ -19,6 +19,10 @@ Ini adalah project untuk scraping artikel pada website Bisnis.com. Terdapat 2 mo
     * `fetch_articles_listing(page)`: Fungsi ini mengambil halaman daftar artikel dari `bisnis.com` untuk menemukan URL artikel.
     * `fetch_article(link)`: Fungsi ini menerima sebuah URL artikel, mengirimkan permintaan HTTP, lalu mem-parsing HTML untuk mengekstrak judul, konten, dan tanggal publikasi.
     * `backtrack(...)`: Fungsi ini mengatur logika *backtracking* dengan melakukan iterasi melalui halaman-halaman dan menyaring artikel berdasarkan rentang tanggal yang diberikan.
+
+* **`backtrack.py` (Titik Masuk untuk Mode Backtrack)**: Sebuah antarmuka baris perintah (*command-line interface*) ringan yang mengimpor fungsi `backtrack` dari modul inti. Skrip ini menangani parsing argumen baris perintah (`start_date`, `end_date`) dan memulai proses *crawl*.
+
+* **`standard.py` (Titik Masuk untuk Mode Standar)**: Skrip ini mengimplementasikan fitur pemantauan berkelanjutan. Skrip ini mengimpor fungsi-fungsi dari modul inti dan menjalankan *loop* tak terbatas yang secara berkala memanggil *crawler*, lalu menyimpan setiap artikel baru yang ditemukan.
  
 ## Cara Menjalankan
 
