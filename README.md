@@ -2,7 +2,7 @@
 Scraping website Bisnis.com
 
 
-*Contoh hasil scraping dengan mode backtrack (range waktu)
+** Contoh hasil scraping dengan mode backtrack (range waktu)
 <img width="1630" height="776" alt="image" src="https://github.com/user-attachments/assets/bf54a0b7-4c9f-4119-b104-c929dcb787f7" />
 
 
