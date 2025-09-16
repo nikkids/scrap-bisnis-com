@@ -1,6 +1,8 @@
 # scrap-bisnis-com
 Scraping website Bisnis.com
 
+Video Demo: https://drive.google.com/file/d/18eBp-sEqsyBqGqTftcs6NusXCZtX7sO5/view?usp=sharing
+
 Ini adalah project untuk scraping artikel pada website Bisnis.com. Terdapat 2 mode yaitu Backtrack dan Standard:
 1. Backtrack: Crawler dapat menerima parameter start date dan end date.
 2. Standard: Crawler menjadi long running process mengambil artikel secara berkala.
